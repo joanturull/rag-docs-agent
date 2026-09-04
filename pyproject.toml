@@ -1,7 +1,7 @@
 [project]
 name = "rag-docs-agent"
 version = "0.1.0"
-description = "Add your description here"
+description = "Ask questions about your own documents and get answers with source citations. FastAPI + Claude API, containerised and deployed on Cloud Run."
 readme = "README.md"
 authors = [
     { name = "Joan Turull", email = "joanturull4@gmail.com" }
