@@ -64,15 +64,16 @@ The command prints the answer followed by the token usage and estimated cost of 
 
 ## Roadmap
 
-- [x] **Phase 0** — Project scaffolding, packaging and installable layout
-- [x] **Phase 1** — CLI backed by the Claude API, with token and cost reporting
-- [ ] **Phase 2** — Document ingestion, embeddings and retrieval with citations
-- [ ] **Phase 3** — FastAPI service and test suite
-- [ ] **Phase 4** — Containerisation
-- [ ] **Phase 5** — Continuous integration
-- [ ] **Phase 6** — Deployment to Cloud Run with continuous delivery
-- [ ] **Phase 7** — Structured logging, latency and cost metrics, retrieval evaluation
-- [ ] **Phase 8** — Architecture notes and demo
+
+- [x] Packaging, project layout and test harness
+- [x] Query interface backed by the Claude API, with token and cost reporting
+- [ ] Document ingestion, embeddings and retrieval with citations
+- [ ] HTTP API
+- [ ] Containerised build
+- [ ] Continuous integration
+- [ ] Deployment to Cloud Run with continuous delivery
+- [ ] Structured logging, latency and cost metrics, retrieval evaluation
+- [ ] Architecture notes and demo
 
 ## License
 
