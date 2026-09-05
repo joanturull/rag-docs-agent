@@ -45,10 +45,27 @@ Run the test suite:
 uv run pytest
 ```
 
+
+## Usage
+
+Set your API key:
+
+```bash
+cp .env.example .env    # then add your ANTHROPIC_API_KEY
+```
+
+Ask a question:
+
+```bash
+uv run rag-agent "What is an embedding?"
+```
+
+The command prints the answer followed by the token usage and estimated cost of the call.
+
 ## Roadmap
 
 - [x] **Phase 0** — Project scaffolding, packaging and installable layout
-- [ ] **Phase 1** — CLI backed by the Claude API, with token and cost reporting
+- [x] **Phase 1** — CLI backed by the Claude API, with token and cost reporting
 - [ ] **Phase 2** — Document ingestion, embeddings and retrieval with citations
 - [ ] **Phase 3** — FastAPI service and test suite
 - [ ] **Phase 4** — Containerisation
