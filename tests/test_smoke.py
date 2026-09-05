@@ -3,4 +3,3 @@ def test_package_exposes_main_entrypoint():
     from rag_docs_agent import main
 
     assert callable(main)
-
